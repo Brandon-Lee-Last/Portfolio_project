@@ -1,0 +1,271 @@
+//Extra Large WideScreens
+@include mediaXl {
+}
+
+//Laptops & Desktops
+@include mediaLg {
+  hr {
+    width: 115%;
+  }
+
+  #about-body {
+    .sm-heading {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .lg-heading {
+      margin-top: -30px;
+      font-size: 3rem;
+    }
+
+    .content {
+      padding-right: 90px;
+      div.bio {
+        display: block;
+        img {
+          display: none;
+        }
+      }
+
+      hr {
+        margin: 10px 0 10px 0;
+      }
+
+      .md-heading {
+        font-size: 2rem;
+      }
+
+      p {
+        width: 100%;
+      }
+
+      .jobs {
+        display: block;
+
+        .job {
+          margin-bottom: 20px;
+          margin-right: 0;
+          border: 0;
+
+          h3 {
+            height: 60px;
+            background-color: lighten($primary-color, 10);
+          }
+        }
+      }
+    }
+  }
+
+  //Work Page
+
+  .content-work {
+    .project {
+      display: inline;
+    }
+
+    .box {
+      width: 100%;
+      margin: 60px auto;
+      margin-left: -10px;
+    }
+
+    .image {
+      img {
+        width: 90%;
+        height: 100%;
+      }
+
+      p {
+        height: 160px;
+        padding: 20px;
+        text-align: left;
+      }
+    }
+
+    .info {
+      height: 300px;
+    }
+  }
+}
+//Tablets
+@include mediaMd {
+  main {
+    align-items: center;
+    padding-left: 40px;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    #call-to-action {
+      margin-top: 80px;
+    }
+  }
+
+  //menu navs.
+  ul.menu-nav,
+  div.menu-branding {
+    width: 100%;
+    min-height: 0;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+      height: 100%;
+    }
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+      height: 100%;
+    }
+  }
+
+  .menu-nav {
+    height: 95vh;
+    transform: translate3d(100%, 0, 0);
+    font-size: 24px;
+    width: 100%;
+    padding-bottom: 150px;
+  }
+
+  .menu-branding {
+    height: 45vh;
+    transform: translate3d(-100%, 0, 0);
+
+    .portrait {
+      margin: 30px;
+      width: 150px;
+      height: 150px;
+      background-size: cover;
+    }
+  }
+
+  //index page mobile
+
+  #home {
+    .lg-heading {
+      font-size: 4rem;
+    }
+    overflow: hidden;
+
+    #call-to-action {
+      margin: 100px 0 -10px -10px;
+    }
+  }
+
+  //about page mobile
+
+  hr {
+    width: 115%;
+  }
+
+  #about-body {
+    .sm-heading {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .lg-heading {
+      margin-top: -30px;
+      font-size: 3rem;
+    }
+
+    .content {
+      div.bio {
+        display: block;
+        img {
+          display: none;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+
+      hr {
+        margin: 10px 0 10px 0;
+      }
+
+      .md-heading {
+        font-size: 2rem;
+      }
+
+      p {
+        width: 100%;
+      }
+
+      .jobs {
+        display: block;
+        margin: 0 -50px 0 -30px;
+
+        .job {
+          margin-bottom: 20px;
+          margin-right: 0;
+          border: 0;
+
+          h3 {
+            height: 60px;
+            background-color: lighten($primary-color, 10);
+          }
+        }
+      }
+    }
+  }
+
+  .content-work {
+    .project {
+      display: inline;
+    }
+
+    .box {
+      width: 115%;
+      margin: 60px auto;
+      margin-left: -10px;
+    }
+
+    .image {
+      img {
+        width: 90%;
+        height: 100%;
+      }
+
+      p {
+        height: 160px;
+        padding: 20px;
+        text-align: left;
+      }
+    }
+
+    .info {
+      height: 300px;
+    }
+  }
+
+  //contact mobile
+  .contact-section {
+    width: 120%;
+    margin-left: -20px;
+    margin-top: 10px;
+    .name,
+    .email {
+      width: 100%;
+    }
+
+    button {
+      margin-top: 30px;
+    }
+  }
+}
+//Smartphones
+@include mediaSm {
+  main#home h1 {
+    margin-top: 10vh;
+  }
+}
+
+@include mediaXsm {
+  .work-footer {
+    display: none;
+  }
+}

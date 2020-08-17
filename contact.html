@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="scss/main.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <div class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </div>
+      </nav>
+    </header>
+    <main id="contact">
+      <div class="spacer"></div>
+      <div class="contact-section">
+        <div class="inner-width">
+          <form
+            action="https://formspree.io/portfolioemails123@gmail.com"
+            method="POST"
+          >
+            <h1>Contact <span class="text-secondary"> Me</span></h1>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              class="name"
+              placeholder="Your Name"
+              autocomplete="off"
+            />
+            <input
+              id="email"
+              type="email"
+              name="_replyto"
+              class="email"
+              placeholder="Your Email"
+              autocomplete="off"
+            />
+            <textarea
+              name="message"
+              id="message"
+              rows="1"
+              placeholder="Message"
+              class="message"
+            ></textarea>
+            <input type="submit" id="sendBtn" value="Send" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+    <script type="module" src="js/contact.js"></script>
+  </body>
+</html>
