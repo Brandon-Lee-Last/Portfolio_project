@@ -1,5 +1,7 @@
-# Portfolio_project
-A portfolio showcasing my skills and projects and a contact form.
+# ---- Portfolio_project ----
+A portfolio showcasing my skills and projects, a digital CV.
 
-# 3rd part API's used
-  https://formspree.io/
+
+# ---- External Recources Used ----
+  Contact form uses formspree to help get messages through static sites.
+  (https://formspree.io/)
