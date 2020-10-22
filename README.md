@@ -8,7 +8,7 @@ A portfolio showcasing my skills and projects, a digital CV.
 
 # ---- Credits ----
 Traversy Media
-Youtube:
+* Youtube: 
 (https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
-Github:
+* Github: 
 (https://github.com/bradtraversy)
